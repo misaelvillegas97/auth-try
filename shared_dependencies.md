@@ -1,27 +1,13 @@
-Shared Dependencies:
+1. Environment Variables: These are the variables that will be stored in the .env file and used across the other two files (settings.py and variables.py). They might include database credentials, API keys, or other configuration variables.
 
-1. NestJS: This is the main framework used for building the application. It is used in all the files.
+2. Project Configuration: This is the overall configuration of the project, which will be used in settings.py and variables.py. It might include settings related to the project's database, server, or other components.
 
-2. JWT: This is used for token generation and validation. It is used in "auth.service.ts", "jwt.strategy.ts", "jwt-auth.guard.ts", and "jwt.util.ts".
+3. Variable Names: These are the names of the variables that will be defined in variables.py and used in settings.py. They might include names of database tables, server settings, or other project-specific variables.
 
-3. bcrypt: This is used for password hashing. It is used in "auth.service.ts" and "bcrypt.util.ts".
+4. Function Names: These are the names of the functions that will be defined and used across the files. They might include functions for connecting to the database, retrieving environment variables, or other project-specific functions.
 
-4. Google and Microsoft Authentication: These are used for third-party authentication. They are used in "google.strategy.ts" and "microsoft.strategy.ts".
+5. Data Schemas: These are the schemas for the data that will be used across the files. They might include schemas for database tables, API responses, or other data used in the project.
 
-5. Roles and Permissions: These are used for managing user access. They are used in "roles.guard.ts", "role.interface.ts", "roles.decorator.ts", "role.util.ts", and all the files in the "roles" directory.
+6. Message Names: These are the names of the messages that will be used across the files. They might include error messages, log messages, or other messages used in the project.
 
-6. HTTPS and CORS: These are used for security practices. They are used in "https-redirect.middleware.ts" and "cors.middleware.ts".
-
-7. Rate Limiting: This is used for preventing abuse. It is used in "rate-limiter.guard.ts".
-
-8. User and Role DTOs: These are used for data transfer objects. They are used in "login.dto.ts", "register.dto.ts", "create-user.dto.ts", "update-user.dto.ts", "create-role.dto.ts", and "update-role.dto.ts".
-
-9. User and Role Interfaces: These are used for TypeScript interfaces. They are used in "user.interface.ts" and "role.interface.ts".
-
-10. Guards: These are used for protecting routes. They are used in "roles.guard.ts" and "jwt-auth.guard.ts".
-
-11. Interceptors: These are used for handling HTTP requests and responses. They are used in "data.interceptor.ts" and "http-exception.interceptor.ts".
-
-12. Decorators: These are used for adding metadata to classes. They are used in "roles.decorator.ts".
-
-13. Utils: These are used for utility functions. They are used in "bcrypt.util.ts", "jwt.util.ts", "role.util.ts", "permission.util.ts", and "security.util.ts".
+7. DOM Element IDs: These are the IDs of the DOM elements that will be used in the JavaScript functions across the files. They might include IDs for form elements, buttons, or other elements in the project's user interface.
